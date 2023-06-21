@@ -27,6 +27,7 @@ export default function RootLayout({
             borderStyle={'solid'}
             borderColor={useColorModeValue('gray.200', 'gray.900')}
             display={'flex'}
+            zIndex={1000}
           >
             <Navbar />
           </Box>
